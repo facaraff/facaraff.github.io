@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://facaraff.github.io/sitemap.xml
