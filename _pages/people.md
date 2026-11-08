@@ -50,7 +50,7 @@ By institution:
 
 - **{{ done_first.size }}** PhDs as first supervisor
 - **{{ done_second.size }}** PhDs as second supervisor
-- **{{ done_msc.size }}** MSc students
+- **{{ done_msc.size }}** MSc (by research) students
 
 By institution:
 {% for g in done_inst %}{{ g.name }}: **{{ g.items.size }}**{% unless forloop.last %} · {% endunless %}{% endfor %}

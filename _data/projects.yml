@@ -15,12 +15,16 @@
   role: CI
   year: 2018
   partner: UNIPALMA
-- title: Land use in rural Colombia
-  funder: GCRF competition 2018/2019 (DMU)
+- title: Collaborative methodology for enhancing sustainability in rural communities and the use of land
+  funder: Global Challenges Research Fund (GCRF) competition 2018/2019 (DMU)
   amount: £23,500
   role: PI
   year: 2019
+  partner: Ponteficia Univerisdad Javeriana (Bogotá, Colombia) 
+    links:
+    - label: Webpage
+      url: https://sites.google.com/site/facaraff/research/gcrf18
+    - label: Project repository (Figshare)
+      url: https://figshare.com/projects/Collaborative_methodology_for_enhancing_sustainability_in_rural_communities_and_the_use_of_land/64511
   summary: >-
-    Peace-process land in rural Colombia is again available for use
-    but carries the legacy of war, such as improvised landmines and
-    debris, which an AI-driven sensor array system is used to detect.
+    The new peace process in Colombia is providing a new lease of life to rural communities but raising many issues and challenges, both social and operational. Lands that were in no-go zones are now available for use but have many issues from direct effect from war such as land mines, to indirect such as debris, pollution and exhaustion. On the other hand technologisation in agriculture is very limited in those regions. The PUJ has a very strong social engagement and impact in all faculties and is working in both social and operational aspects to support the sustainable development of these communities; one of the projects involves the use of multiple sensors to measure the land and help optimise its use. Sensing land characteristic and detecting buried objects is very complex and no one sensor or method can achieve this optimally. With multiple sensors, computational intelligence based data fusion, analysis and decision making techniques we can optimise the performance of various systems. 
