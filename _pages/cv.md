@@ -75,17 +75,10 @@ toc:
 | 2015    | Jyväskylä Grant for Computing and Mathematical Sciences | €10,250      | PI   |
 | 2012    | Jyväskylä Grant for Computing and Mathematical Sciences | €10,250      | PI   |
 
-## Invited talks
-
-- Tutorial: _Structural Bias in optimization algorithms_, ECTA 2023, Rome, Italy (Nov 2023)
-- _Emerging Techniques for Optimisation Heuristics Analysis: Structural Bias Detection_, International Colloquium on Artificial Intelligence, NUST, Pakistan (Aug 2023)
-- _Optimisation Applications in Engineering_, EIA University, Colombia (Nov 2018)
-- _Metaheuristic Optimisation: from theory to tool implementation_, EIA University, Colombia (Nov 2018)
-
 ## Honorary positions
 
 - Honorary Senior Research Fellow, De Montfort University, UK (24/08/2022 – 23/08/2026)
 
 ## Postgraduate supervision
 
-See the [People]({{ '/people/' | relative_url }}) page. Leadership, teaching, editorial and service roles are on the [Teaching & Service]({{ '/teaching/' | relative_url }}) page; publications are on the [Publications]({{ '/publications/' | relative_url }}) page.
+See the [People]({{ '/people/' | relative_url }}) page. Leadership, teaching, editorial and service roles are on the [Teaching & Service]({{ '/teaching/' | relative_url }}) page; invited talks on the [Talks]({{ '/talks/' | relative_url }}) page; publications are on the [Publications]({{ '/publications/' | relative_url }}) page.

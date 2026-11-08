@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-Author ORCID: [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368) · [Google Scholar](https://scholar.google.com/citations?user=pQqpUNEAAAAJ) · [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55173601900) · [Web of Science](https://www.webofscience.com/wos/author/record/AAE-2809-2019)
+Author ORCID: [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368) · [Google Scholar](https://scholar.google.com/citations?user=pQqpUNEAAAAJ) · [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55173601900) · [Web of Science](https://www.webofscience.com/wos/author/record/AAE-2809-2019) · [Cronfa](https://cronfa.swansea.ac.uk/Search/Results?lookfor=fabio+caraffini&type=AllFields&sort=year)
 
 {% include bib_search.liquid %}
 

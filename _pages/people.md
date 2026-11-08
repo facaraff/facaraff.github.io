@@ -19,19 +19,39 @@ nav_order: 7
 - **{{ phd2.size }}** PhD students, as second supervisor (Swansea University)
 - **{{ msc.size }}** MSc by Research student (Swansea University)
 
+<ul>
+  {% for s in cur %}
+    {% if s.title %}
+      <li>{{ s.title }} <em>({{ s.level }}, {{ s.role }} supervisor)</em></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
 ## Joining January 2027
 
 - **{{ inc.size }}** PhD students, as first supervisor
+
+<ul>
+  {% for s in inc %}
+    {% if s.title %}
+      <li>{{ s.title }} <em>(PhD, {{ s.role }} supervisor)</em></li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
 ## Alumni (completed PhDs)
 
 <ul>
   {% for a in site.data.alumni %}
-    <li><strong>{{ a.name }}</strong>{% if a.date != nil %}, {{ a.date }}{% endif %}, {{ a.institution }}</li>
+    <li>
+      <strong>{{ a.name }}</strong>{% if a.date != nil %}, {{ a.date }}{% endif %}, {{ a.institution }}
+      {% if a.thesis %}<br><em>{{ a.thesis }}</em>{% endif %}
+      {% if a.url %} <a href="{{ a.url }}">e-thesis</a>{% endif %}
+    </li>
   {% endfor %}
 </ul>
 
-Five PhDs were completed at De Montfort University, UK, and one at Pontifical Xavierian University, Colombia.
+**{{ site.data.alumni.size }}** PhDs completed as first supervisor.
 
 ## External supervision
 
