@@ -8,6 +8,7 @@ nav_order: 3
 ---
 
 {% for p in site.data.projects %}
+
 ### {{ p.title }}
 
 {{ p.funder }} · {{ p.year }} · {{ p.role }} · {{ p.amount }}{% if p.partner %} · Partner: {{ p.partner }}{% endif %}
