@@ -22,3 +22,4 @@
 9. Software page: GitHub links for SOS and the IEEE branch repo are guessed from the repo names; please check them.
 10. Run `python3 bin/add_dois.py` locally to fill DOIs; I could not test it against Crossref from here.
 11. Co-author ORCIDs are not in `_data/coauthors.yml` (only yours); add them once checked.
+12. The IEEE branch software entry has a guessed `year` (2022): please confirm (CS-210 is 2023). Consider archiving them with Zenodo for a DOI.
