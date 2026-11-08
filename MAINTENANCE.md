@@ -59,10 +59,6 @@ Edit `_data/socials.yml`. Built-in keys include `github_username`, `linkedin_use
 
 Add an `@misc` entry to `_bibliography/papers.bib` with `section = {software}` (code) or `section = {data}` (datasets), a `year`, and either a `doi` (Zenodo, Mendeley Data, Figshare) or `code = {https://github.com/...}`. It appears on the Software & Data page, with a BibTeX button so others can cite it. To get a DOI for a GitHub repository, archive it with Zenodo: Zenodo, GitHub, switch the repo on, then publish a release.
 
-## Supervision counts and titles
+## Supervision (People page)
 
-The counts on the People page are computed from `_data/students.yml` (current and incoming) and `_data/alumni.yml` (completed), so just add or edit entries. Fill in `title:` for a student to list their project title (anonymous). For alumni, add `thesis:` (title) and `url:` (link to the e-thesis) and a link appears.
-
-## Fill DOIs automatically on GitHub
-
-Actions tab, then "Add missing DOIs", then "Run workflow". It looks up missing DOIs on Crossref and pushes them to a branch called `add-dois` (and tries to open a pull request). Review the changes in `papers.bib`, then merge. If no pull request appears, open one from that branch, or turn on Settings, Actions, General, "Allow GitHub Actions to create and approve pull requests".
+Everything on the People page comes from one file, `_data/supervision.yml`. Add one block per student: `level`, `role` (`first` or `second`; second also covers external supervision), `status` (`current` or `completed`), `institution`, and optionally `name`, `start` (for example January 2027), `year`, `title` and `url` (thesis or DOI link). The counts, the per-institution breakdown and the lists update by themselves. Leave out `name` for anyone who has not agreed to be named: they are still counted and listed as "PhD student". Keep completed entries newest first.
