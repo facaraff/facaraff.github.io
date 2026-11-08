@@ -1,0 +1,137 @@
+# Postgraduate supervision. One entry per student; the People page counts and lists them automatically.
+# status: current | completed         (incoming students are "current" with a start date)
+# role: first | second                (second = any non-primary supervision, including external)
+# level: PhD | MSc by Research | MSc
+# Optional: name (leave out if the student has not agreed to be named: they are still counted),
+#           start (e.g. January 2027), year (award year), title, url (thesis link or DOI link).
+# Keep completed entries newest first.
+
+# --- Current and incoming ---
+- name: Sarah Costa
+  level: PhD
+  role: first
+  status: current
+  institution: Swansea University, UK
+- name: James Izzard
+  level: PhD
+  role: first
+  status: current
+  institution: Swansea University, UK
+- name: Jumaira Miller
+  level: PhD
+  role: first
+  status: current
+  institution: Swansea University, UK
+- name: Raziyeh Moghaddas
+  level: PhD
+  role: first
+  status: current
+  institution: Swansea University, UK
+- name: Olasunkanmi Daramola
+  level: PhD
+  role: first
+  status: current
+  institution: Swansea University, UK
+- name: Ryan Brunton
+  level: MSc by Research
+  role: first
+  status: current
+  institution: Swansea University, UK
+- name: Joseph Metcalfe
+  level: PhD
+  role: second
+  status: current
+  institution: Swansea University, UK
+- name: Matthew Humphreys
+  level: PhD
+  role: second
+  status: current
+  institution: Swansea University, UK
+- name: Bakhtawar Barzan Abdalla
+  level: PhD
+  role: first
+  status: current
+  start: January 2027
+  institution: Swansea University, UK
+- name: Pranjal Jain
+  level: PhD
+  role: first
+  status: current
+  start: January 2027
+  institution: Swansea University, UK
+# Not named (no consent yet): counted, listed without a name
+- level: PhD
+  role: second
+  status: current
+  institution: University of Limerick, Ireland
+- level: PhD
+  role: second
+  status: current
+  institution: University of Limerick, Ireland
+
+# --- Completed, newest first ---
+- name: Zuha Shahid
+  level: PhD
+  role: second
+  status: completed
+  year: 2026
+  institution: Swansea University, UK
+  title: Hybrid AI for Supply Chain Risk Identification in Industry 4.0
+  url: https://doi.org/10.23889/SUThesis.72858
+- name: Jarrad Morden
+  level: PhD
+  role: second
+  status: completed
+  year: 2026
+  institution: De Montfort University, UK
+  title: >-
+    The Kinematic Continuum: Mapping the Temporal Evolution of Injury Risk
+    from Approach to Impact for Injury-Informed Active Safety Calibration
+- name: Mohammad Abudayeh
+  level: PhD
+  role: second
+  status: completed
+  year: 2026
+  institution: De Montfort University, UK
+- name: Matthew Fox
+  level: PhD
+  role: second
+  status: completed
+  year: 2024
+  institution: De Montfort University, UK
+  title: >-
+    Evolutionary Computation for Dynamic Optimisation Problems with
+    Different Requirement Satisfaction
+  url: https://hdl.handle.net/2086/24366
+- name: Dinesh Mothi
+  level: PhD
+  role: second
+  status: completed
+  year: 2020
+  institution: De Montfort University, UK
+  title: >-
+    Detecting Live Forensic Memory Acquisition using Distinct Native
+    Attribute Fingerprinting
+  url: https://dora.dmu.ac.uk/handle/2086/20574
+- name: Raymond Moodly
+  level: PhD
+  role: second
+  status: completed
+  year: 2020
+  institution: De Montfort University, UK
+  title: >-
+    Enhancing the Prediction of Missing Targeted Items from the
+    Transactions of Frequent, Known Users
+  url: https://dora.dmu.ac.uk/handle/2086/19188
+- name: Johana Florez-Lozano
+  level: PhD
+  role: second
+  status: completed
+  year: 2019
+  institution: Pontifical Xavierian University, Colombia
+  title: Decision-Making System for Heterogeneous and Active Perception
+# Not named (no consent yet)
+- level: MSc
+  role: second
+  status: completed
+  institution: Leiden University, The Netherlands
