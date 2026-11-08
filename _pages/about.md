@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: Associate Professor in Artificial Intelligence · Swansea University, UK
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
@@ -20,3 +20,5 @@ My academic background includes a Ph.D. in Mathematical Information Technology f
 I am the founding counsellor of the Swansea IEEE Student Branch and the _Foundation and Methods for Modelling, Data Science and AI_ theme lead within the [Zienkiewicz Institute](https://zienkiewicz.institute/).
 
 **Contact:** Room 219 (second floor), Computational Foundry, Bay Campus, Swansea University.
+
+**ORCID:** [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368)
