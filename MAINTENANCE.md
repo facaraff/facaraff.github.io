@@ -39,9 +39,9 @@ Add a block to `_data/projects.yml` (title, funder, amount, role, year, summary)
 
 Edit `_data/students.yml` (current and incoming, anonymous) or `_data/alumni.yml` (completed PhDs, with name). Do not add names of current students without their written consent.
 
-## Add a talk
+## Add a talk or its slides
 
-Add a line to `_pages/talks.md`. Put the slides PDF in `assets/pdf/` and link to it with `/assets/pdf/<file>.pdf`.
+Edit `_data/talks.yml` and add a block (title, event, place, date). To link slides, upload the PDF to `assets/pdf/talks/` (a subfolder next to the CV in `assets/pdf/`) and set `slides:` to the file name, for example `slides: ecta2023-structural-bias.pdf`. A "Slides (PDF)" link then appears next to that talk. Remove private or third-party material from slides first, because the repo is public.
 
 ## Replace the CV PDF
 
