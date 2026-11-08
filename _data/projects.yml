@@ -3,11 +3,12 @@
   amount: £30,000
   role: PI
   year: 2023
-  summary:
-    "A framework for describing the behaviour and influence of single cells
-    in multicellular populations, starting from single heart cells and moving to the
-    features and interactions that emerge when they synchronise in a network. Collaborators:
-    Prof Christopher George, Dr Hassan Eshkiki, Dr Nikol Sullo."
+  summary: >-
+    A framework for describing the behaviour and influence of single
+    cells in multicellular populations, starting from single heart
+    cells and moving to the features and interactions that emerge when
+    they synchronise in a network. Collaborators: Prof Christopher
+    George, Dr Hassan Eshkiki, Dr Nikol Sullo.
 - title: Lethal wilt in oil palm
   funder: Newton Fund, Royal Academy of Engineering
   amount: £50,000
@@ -19,7 +20,7 @@
   amount: £23,500
   role: PI
   year: 2019
-  summary:
-    Peace-process land in rural Colombia is again available for use but carries
-    the legacy of war, such as improvised landmines and debris, which an AI-driven
-    sensor array system is used to detect.
+  summary: >-
+    Peace-process land in rural Colombia is again available for use
+    but carries the legacy of war, such as improvised landmines and
+    debris, which an AI-driven sensor array system is used to detect.
