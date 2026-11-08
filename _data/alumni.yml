@@ -1,19 +1,32 @@
-# Completed PhDs (as first supervisor). Date = completion date as supplied; years are enough where the full date is unknown.
+# Completed PhDs (as first supervisor). Date = completion date or year.
+# thesis: thesis title; url: link to the e-thesis (repository or DOI).
 - name: Matthew Fox
   date: 14/02/2024
   institution: De Montfort University, UK
+  thesis:
+  url:
 - name: Dinesh Mothi
   date: 19/06/2020
   institution: De Montfort University, UK
+  thesis:
+  url:
 - name: Raymond Moodly
   date: 17/01/2020
   institution: De Montfort University, UK
+  thesis:
+  url:
 - name: Johana Florez-Lozano
   date: 14/11/2019
   institution: Pontifical Xavierian University, Colombia
+  thesis:
+  url:
 - name: Jarrad Morden
   date: 2026
   institution: De Montfort University, UK
+  thesis:
+  url:
 - name: Mohammad Abudayeh
   date: 2026
   institution: De Montfort University, UK
+  thesis:
+  url:
