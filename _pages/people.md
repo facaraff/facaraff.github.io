@@ -28,7 +28,7 @@ nav_order: 7
 
 - **{{ cur_first.size }}** PhD students as first supervisor
 - **{{ cur_second.size }}** PhD students as second supervisor
-- **{{ cur_msc.size }}** MSc students
+- **{{ cur_msc.size }}** MSc (by research) students
 
 By institution:
 {% for g in cur_inst %}{{ g.name }}: **{{ g.items.size }}**{% unless forloop.last %} · {% endunless %}{% endfor %}
