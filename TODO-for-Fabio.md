@@ -25,3 +25,5 @@
 12. The IEEE branch software entry has a guessed `year` (2022): please confirm (CS-210 is 2023). Consider archiving them with Zenodo for a DOI.
 13. About page icons: a second email icon (Google G, 'Personal email (Gmail)') is added in `_data/socials.yml`. Publishing an address invites spam; remove the `personal_email` block to undo.
 14. DOIs: 81 DOIs came from your Overleaf file and Swansea's Cronfa records; the remaining ~30 (mostly 2012–2020 IEEE/Springer and a few recent papers) still need `python3 bin/add_dois.py`. P31 has no DOI in your file.
+15. People page now uses `_data/supervision.yml`. Delete the old `_data/students.yml` and `_data/alumni.yml` from the repo (they are no longer used).
+16. Abudayeh's thesis is under embargo, so no title or link is shown. Add `title` and `url` to his entry in `_data/supervision.yml` when it is released.
