@@ -62,3 +62,7 @@ Add an `@misc` entry to `_bibliography/papers.bib` with `section = {software}` (
 ## Supervision counts and titles
 
 The counts on the People page are computed from `_data/students.yml` (current and incoming) and `_data/alumni.yml` (completed), so just add or edit entries. Fill in `title:` for a student to list their project title (anonymous). For alumni, add `thesis:` (title) and `url:` (link to the e-thesis) and a link appears.
+
+## Fill DOIs automatically on GitHub
+
+Actions tab, then "Add missing DOIs", then "Run workflow". It looks up missing DOIs on Crossref and pushes them to a branch called `add-dois` (and tries to open a pull request). Review the changes in `papers.bib`, then merge. If no pull request appears, open one from that branch, or turn on Settings, Actions, General, "Allow GitHub Actions to create and approve pull requests".
