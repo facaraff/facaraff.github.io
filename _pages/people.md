@@ -23,10 +23,15 @@ nav_order: 7
 
 - **{{ inc.size }}** PhD students, as first supervisor
 
-## Completed PhD supervisions
+## Alumni (completed PhDs)
 
-- 5 at De Montfort University, UK
-- 1 at Pontifical Xavierian University, Colombia
+<ul>
+  {% for a in site.data.alumni %}
+    <li><strong>{{ a.name }}</strong>{% if a.date != nil %}, {{ a.date }}{% endif %}, {{ a.institution }}</li>
+  {% endfor %}
+</ul>
+
+Five PhDs were completed at De Montfort University, UK, and one at Pontifical Xavierian University, Colombia.
 
 ## External supervision
 
