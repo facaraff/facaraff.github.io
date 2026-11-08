@@ -2,17 +2,44 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/CV.pdf # path to your CV PDF file
-email: fabio.caraffini@swansea.ac.uk # your email address
+email: fabio.caraffini@swansea.ac.uk # professional email
+personal_email:
+  logo: fa-brands fa-google
+  title: Personal email (Gmail)
+  url: mailto:fabio.caraffini@gmail.com
 # rss_icon: true # comment this line to hide the RSS icon (enable once the blog is in use)
+
+# --- main research profiles ---
 orcid_id: 0000-0001-9199-7368
 scholar_userid: pQqpUNEAAAAJ # your Google Scholar ID
 research_gate_profile: Fabio-Caraffini
 scopus_id: 55173601900
-github_username: facaraff
-linkedin_username: fabio-caraffini
 # Web of Science has no built-in key, so it is a custom entry.
 # NOTE: check the icon class (Academicons) renders on the first build; if not, change `logo`.
 web_of_science:
   logo: ai ai-clarivate
   title: Web of Science
   url: https://www.webofscience.com/wos/author/record/AAE-2809-2019
+
+# --- code and professional ---
+github_username: facaraff
+linkedin_username: fabio-caraffini
+x_username: facaraff
+
+# --- institutional and repositories (custom entries) ---
+swansea_staff_page:
+  logo: fa-solid fa-building-columns
+  title: Swansea University staff profile
+  url: https://www.swansea.ac.uk/staff/fabio.caraffini/
+cronfa:
+  logo: fa-solid fa-book-open
+  title: Cronfa (Swansea University repository)
+  url: https://cronfa.swansea.ac.uk/Search/Results?lookfor=fabio+caraffini&type=AllFields&sort=year
+figshare_main:
+  logo: ai ai-figshare
+  title: Figshare (research data)
+  url: https://figshare.com/authors/Fabio_Caraffini/820869
+figshare_dmu:
+  logo: ai ai-figshare
+  title: Figshare (De Montfort University, archived)
+  url: https://figshare.dmu.ac.uk/authors/Fabio_Caraffini/6657968
