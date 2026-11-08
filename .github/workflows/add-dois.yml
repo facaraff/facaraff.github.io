@@ -1,0 +1,38 @@
+name: Add missing DOIs
+
+# Manual trigger: Actions tab > "Add missing DOIs" > Run workflow.
+# Looks up missing DOIs on Crossref and pushes them to a branch called add-dois for review.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  add-dois:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Look up DOIs
+        run: python3 bin/add_dois.py --write | tee doi-report.txt
+        env:
+          CROSSREF_MAILTO: ${{ vars.CROSSREF_MAILTO }}
+      - name: Push branch and open pull request
+        run: |
+          if git diff --quiet _bibliography/papers.bib; then
+            echo "No new DOIs found."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b add-dois
+          git add _bibliography/papers.bib
+          git commit -m "Add missing DOIs from Crossref"
+          git push --force origin add-dois
+          gh pr create --title "Add missing DOIs from Crossref" --body "$(tail -n 5 doi-report.txt)" || echo "Open the pull request manually from the add-dois branch."
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
