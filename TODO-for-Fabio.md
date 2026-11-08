@@ -23,3 +23,5 @@
 10. Run `python3 bin/add_dois.py` locally to fill DOIs; I could not test it against Crossref from here.
 11. Co-author ORCIDs are not in `_data/coauthors.yml` (only yours); add them once checked.
 12. The IEEE branch software entry has a guessed `year` (2022): please confirm (CS-210 is 2023). Consider archiving them with Zenodo for a DOI.
+13. About page icons: a second email icon (Google G, 'Personal email (Gmail)') is added in `_data/socials.yml`. Publishing an address invites spam; remove the `personal_email` block to undo.
+14. DOIs: 81 DOIs came from your Overleaf file and Swansea's Cronfa records; the remaining ~30 (mostly 2012–2020 IEEE/Springer and a few recent papers) still need `python3 bin/add_dois.py`. P31 has no DOI in your file.
