@@ -75,14 +75,4 @@ Author ORCID: [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368) · [G
   {% endfor %}
 </ol>
 
-## 9. Public repositories (open science)
-
-Datasets and software archived with individual DOIs.
-
-<div class="publications">
-
-{% bibliography -q @*[section=data] %}
-
-</div>
-
-More code and data are on my Figshare pages (see the social icons) and on [GitHub](https://github.com/facaraff).
+Software and datasets with DOIs are on the [Software & Data]({{ '/software/' | relative_url }}) page.
