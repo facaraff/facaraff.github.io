@@ -7,7 +7,7 @@ All edits are made on the `master` branch (GitHub: open the file, click the penc
 Open `_bibliography/papers.bib` and copy an existing entry of the same kind. Keep:
 
 - `abbr`: the label (J57 for the next journal article, P50 for the next conference paper, and so on).
-- `section`: one of `journal`, `conference`, `chapter`, `editorial`, `edited`, `thesis`, `data`.
+- `section`: one of `journal`, `conference`, `chapter`, `editorial`, `edited`, `thesis`, `software`, `data`.
 - `doi`: add `doi = {...}` and a DOI button appears.
 
 Optional fields that add buttons: `pdf`, `code`, `slides`, `poster`, `html`, `arxiv`.
@@ -54,3 +54,7 @@ Edit `_pages/about.md`. The text below the second `---` line is the body.
 ## Add or change a social link
 
 Edit `_data/socials.yml`. Built-in keys include `github_username`, `linkedin_username`, `orcid_id`, `scholar_userid`; any other entry needs `logo`, `title` and `url`.
+
+## Add a software repository or dataset (citable)
+
+Add an `@misc` entry to `_bibliography/papers.bib` with `section = {software}` (code) or `section = {data}` (datasets), a `year`, and either a `doi` (Zenodo, Mendeley Data, Figshare) or `code = {https://github.com/...}`. It appears on the Software & Data page, with a BibTeX button so others can cite it. To get a DOI for a GitHub repository, archive it with Zenodo: Zenodo, GitHub, switch the repo on, then publish a release.
