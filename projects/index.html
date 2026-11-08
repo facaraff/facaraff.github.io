@@ -10,7 +10,7 @@
         "description": "Funded research projects.",
         "headline": "projects",
         
-        "sameAs": [null,"https://orcid.org/0000-0001-9199-7368","https://scholar.google.com/citations?user=pQqpUNEAAAAJ","https://www.researchgate.net/profile/Fabio-Caraffini/","https://www.scopus.com/authid/detail.uri?authorId=55173601900","https://github.com/facaraff","https://www.linkedin.com/in/fabio-caraffini","https://www.webofscience.com/wos/author/record/AAE-2809-2019"],
+        "sameAs": [null,"mailto:fabio.caraffini@gmail.com","https://orcid.org/0000-0001-9199-7368","https://scholar.google.com/citations?user=pQqpUNEAAAAJ","https://www.researchgate.net/profile/Fabio-Caraffini/","https://www.scopus.com/authid/detail.uri?authorId=55173601900","https://www.webofscience.com/wos/author/record/AAE-2809-2019","https://github.com/facaraff","https://www.linkedin.com/in/fabio-caraffini","https://twitter.com/facaraff","https://www.swansea.ac.uk/staff/fabio.caraffini/","https://cronfa.swansea.ac.uk/Search/Results?lookfor=fabio+caraffini\u0026type=AllFields\u0026sort=year","https://figshare.com/authors/Fabio_Caraffini/820869","https://figshare.dmu.ac.uk/authors/Fabio_Caraffini/6657968"],
         
         "name": "Fabio Caraffini",
         "@context": "https://schema.org"
@@ -110,6 +110,13 @@ ninja.data = [{
           window.open("mailto:%66%61%62%69%6F.%63%61%72%61%66%66%69%6E%69@%73%77%61%6E%73%65%61.%61%63.%75%6B", "_blank");
         },
       },{
+        id: 'social-personal_email',
+        title: 'Personal_email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:fabio.caraffini@gmail.com", "_blank");
+        },
+      },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',
@@ -138,6 +145,13 @@ ninja.data = [{
           window.open("https://www.scopus.com/authid/detail.uri?authorId=55173601900", "_blank");
         },
       },{
+        id: 'social-web_of_science',
+        title: 'Web_of_science',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.webofscience.com/wos/author/record/AAE-2809-2019", "_blank");
+        },
+      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
@@ -152,11 +166,39 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/fabio-caraffini", "_blank");
         },
       },{
-        id: 'social-web_of_science',
-        title: 'Web_of_science',
+        id: 'social-x',
+        title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.webofscience.com/wos/author/record/AAE-2809-2019", "_blank");
+          window.open("https://twitter.com/facaraff", "_blank");
+        },
+      },{
+        id: 'social-swansea_staff_page',
+        title: 'Swansea_staff_page',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.swansea.ac.uk/staff/fabio.caraffini/", "_blank");
+        },
+      },{
+        id: 'social-cronfa',
+        title: 'Cronfa',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://cronfa.swansea.ac.uk/Search/Results?lookfor=fabio+caraffini&type=AllFields&sort=year", "_blank");
+        },
+      },{
+        id: 'social-figshare_main',
+        title: 'Figshare_main',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://figshare.com/authors/Fabio_Caraffini/820869", "_blank");
+        },
+      },{
+        id: 'social-figshare_dmu',
+        title: 'Figshare_dmu',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://figshare.dmu.ac.uk/authors/Fabio_Caraffini/6657968", "_blank");
         },
       },{
       id: 'light-theme',
