@@ -20,6 +20,8 @@ nav_order: 7
 {% assign done_msc = done | where_exp: "p", "p.level != 'PhD'" %}
 {% assign done_inst = done | group_by: "institution" %}
 
+<p><small class="text-muted"><em>Note: where a name is missing, I have not yet sought consent to display it. These students are still included in the counts.</em></small></p>
+
 ## Current postgraduate researchers
 
 **{{ cur.size }}** current and incoming students.
