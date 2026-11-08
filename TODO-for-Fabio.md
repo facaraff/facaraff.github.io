@@ -27,3 +27,4 @@
 14. DOIs: 81 DOIs came from your Overleaf file and Swansea's Cronfa records; the remaining ~30 (mostly 2012–2020 IEEE/Springer and a few recent papers) still need `python3 bin/add_dois.py`. P31 has no DOI in your file.
 15. People page now uses `_data/supervision.yml`. Delete the old `_data/students.yml` and `_data/alumni.yml` from the repo (they are no longer used).
 16. Abudayeh's thesis is under embargo, so no title or link is shown. Add `title` and `url` to his entry in `_data/supervision.yml` when it is released.
+17. Teaching: your message said CSCM-075 but the CV says CSCM-072 (Optimisation Techniques); the site uses the CV. CS-210 has no undergraduate label in the CV; the site shows Level 5 as undergraduate.
