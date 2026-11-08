@@ -1,0 +1,26 @@
+# Talks, newest first. To link slides: put the PDF in assets/pdf/talks/ and set slides: to its file name.
+- title: Invited lecturer
+  event: DataSLO Summer School 2025
+  place: Norcia, Italy
+  date: 2025
+  slides:
+- title: Structural Bias in optimization algorithms (tutorial)
+  event: ECTA 2023
+  place: Rome, Italy
+  date: November 2023
+  slides:
+- title: "Emerging Techniques for Optimisation Heuristics Analysis: Structural Bias Detection"
+  event: International Colloquium on Artificial Intelligence, NUST
+  place: Pakistan
+  date: August 2023
+  slides:
+- title: Optimisation Applications in Engineering
+  event: EIA University
+  place: Colombia
+  date: November 2018
+  slides:
+- title: "Metaheuristic Optimisation: from theory to tool implementation"
+  event: EIA University
+  place: Colombia
+  date: November 2018
+  slides:
