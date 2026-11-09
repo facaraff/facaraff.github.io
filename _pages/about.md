@@ -21,9 +21,11 @@ I am the founding counsellor of the Swansea IEEE Student Branch and the _Foundat
 
 **Contact:** Room 219 (second floor), Computational Foundry, Bay Campus, Swansea University.
 
-**ORCID:** [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368)
+#**ORCID:** [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368)
 
 <style>
+.social .contact-icons{font-size:3rem!important}
+.social .contact-icons a,.social .contact-icons a i{font-size:inherit!important}
 .rv{margin-top:2rem}
 .rv h3{margin-bottom:.75rem}
 .rv h4{font-size:1rem;margin:1.25rem 0 .5rem}
@@ -87,3 +89,6 @@ I am the founding counsellor of the Swansea IEEE Student Branch and the _Foundat
 <div class="rv-tile"><b>{{ site.data.talks.size }}</b><span>invited talks</span></div>
 </div>
 </div>
+<script>
+document.addEventListener("DOMContentLoaded",function(){var s=document.querySelector(".social"),r=document.querySelector(".rv");if(s&&r){s.insertAdjacentElement("afterend",r);}});
+</script>
