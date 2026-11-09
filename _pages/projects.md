@@ -15,6 +15,8 @@ nav_order: 3
 
 {{ p.summary }}
 
+{% if p.links %}<p>{% for l in p.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</p>{% endif %}
+
 {% endfor %}
 
 Further funding is listed on the [CV]({{ '/cv/' | relative_url }}).
