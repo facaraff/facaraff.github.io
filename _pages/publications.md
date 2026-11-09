@@ -5,13 +5,15 @@ title: publications
 description: Journal articles, conference papers, chapters, editorials, theses and open data. Generated from a BibTeX master file.
 nav: true
 nav_order: 2
+toc:
+  sidebar: left
 ---
 
 Author ORCID: [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368) · [Google Scholar](https://scholar.google.com/citations?user=pQqpUNEAAAAJ) · [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55173601900) · [Web of Science](https://www.webofscience.com/wos/author/record/AAE-2809-2019) · [Cronfa](https://cronfa.swansea.ac.uk/Search/Results?lookfor=fabio+caraffini&type=AllFields&sort=year)
 
 {% include bib_search.liquid %}
 
-## 1. Journal articles
+## Journal articles
 
 <div class="publications">
 
@@ -19,7 +21,7 @@ Author ORCID: [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368) · [G
 
 </div>
 
-## 2. Peer-reviewed conference proceedings
+## Peer-reviewed conference proceedings
 
 <div class="publications">
 
@@ -27,7 +29,7 @@ Author ORCID: [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368) · [G
 
 </div>
 
-## 3. Book chapters
+## Book chapters
 
 <div class="publications">
 
@@ -35,7 +37,7 @@ Author ORCID: [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368) · [G
 
 </div>
 
-## 4. Editorials
+## Editorials
 
 <div class="publications">
 
@@ -43,7 +45,7 @@ Author ORCID: [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368) · [G
 
 </div>
 
-## 5. Edited books
+## Edited books
 
 <div class="publications">
 
@@ -51,7 +53,7 @@ Author ORCID: [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368) · [G
 
 </div>
 
-## 6. PhD theses
+## PhD theses
 
 <div class="publications">
 
@@ -59,7 +61,7 @@ Author ORCID: [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368) · [G
 
 </div>
 
-## 7. Accepted (DOI not yet available)
+## Accepted (DOI not yet available)
 
 <ol>
   {% for p in site.data.in_progress.accepted %}
@@ -67,7 +69,7 @@ Author ORCID: [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368) · [G
   {% endfor %}
 </ol>
 
-## 8. Under review
+## Under review
 
 <ol>
   {% for p in site.data.in_progress.under_review %}
