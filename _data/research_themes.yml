@@ -1,0 +1,42 @@
+# Research themes shown on the About page. Tag papers in papers.bib with themes = {id1, id2}.
+# icon: a Font Awesome (free, solid) icon name; hue: colour of the card, 0-360.
+- id: opt
+  label: Heuristic optimisation & memetic computing
+  blurb: Algorithm design, differential evolution, memetic and compact algorithms
+  icon: fa-bullseye
+  hue: 265
+- id: behav
+  label: Algorithm behaviour & structural bias
+  blurb: Analysing how optimisation algorithms behave, including bias and constraint handling
+  icon: fa-chart-line
+  hue: 205
+- id: health
+  label: AI for healthcare & biomedicine
+  blurb: Cell networks, medical imaging, diagnosis and health data
+  icon: fa-heart-pulse
+  hue: 350
+- id: env
+  label: Sustainability, agriculture & climate
+  blurb: Plant disease, land use, climate risk and energy
+  icon: fa-seedling
+  hue: 140
+- id: mas
+  label: Multi-agent & decision-making systems
+  blurb: Collaborative agents and distributed decision making
+  icon: fa-network-wired
+  hue: 30
+- id: lang
+  label: Language & multimodal AI
+  blurb: Fake news, AI-generated text and language models
+  icon: fa-language
+  hue: 290
+- id: transport
+  label: Transport, safety & security
+  blurb: Road safety, railways, network security and detection systems
+  icon: fa-train
+  hue: 50
+- id: society
+  label: Finance, education & society
+  blurb: Risk and finance, education technology and societal applications
+  icon: fa-people-group
+  hue: 175
