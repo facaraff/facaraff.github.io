@@ -7,16 +7,15 @@ nav: true
 nav_order: 2
 ---
 
+Author ORCID: [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368) · [Google Scholar](https://scholar.google.com/citations?user=pQqpUNEAAAAJ) · [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55173601900) · [Web of Science](https://www.webofscience.com/wos/author/record/AAE-2809-2019) · [Cronfa](https://cronfa.swansea.ac.uk/Search/Results?lookfor=fabio+caraffini&type=AllFields&sort=year)
+
+{% include bib_search.liquid %}
+
 <style>
-  .pubnav { font-size: 0.9rem; margin: 0 0 1.5rem; }
-  .pubnav a { display: inline-block; margin: 0 0.9rem 0.3rem 0; color: var(--global-text-color); border-bottom: 1px solid transparent; }
+  .pubnav { font-size: 0.95rem; margin: 0 0 1.5rem; }
+  .pubnav a { display: inline-block; margin: 0 1.1rem 0.3rem 0; color: var(--global-text-color); border-bottom: 1px solid var(--global-divider-color); }
   .pubnav a:hover { color: var(--global-theme-color); border-bottom-color: var(--global-theme-color); text-decoration: none; }
   h2[id] { scroll-margin-top: 5rem; }
-  @media (min-width: 1250px) {
-    .pubnav { position: fixed; top: 9rem; left: max(1rem, calc(50% - 760px)); width: 11rem; margin: 0; }
-    .pubnav a { display: block; margin: 0 0 0.55rem; padding-left: 0.6rem; border-left: 2px solid var(--global-divider-color); border-bottom: 0; }
-    .pubnav a:hover { border-left-color: var(--global-theme-color); }
-  }
 </style>
 
 <nav class="pubnav" aria-label="Publication sections">
@@ -27,10 +26,6 @@ nav_order: 2
   <a href="#edited">Edited books</a>
   <a href="#theses">PhD theses</a>
 </nav>
-
-Author ORCID: [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368) · [Google Scholar](https://scholar.google.com/citations?user=pQqpUNEAAAAJ) · [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55173601900) · [Web of Science](https://www.webofscience.com/wos/author/record/AAE-2809-2019) · [Cronfa](https://cronfa.swansea.ac.uk/Search/Results?lookfor=fabio+caraffini&type=AllFields&sort=year)
-
-{% include bib_search.liquid %}
 
 ## Journal articles {#journal}
 
