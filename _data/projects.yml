@@ -20,8 +20,8 @@
   amount: £23,500
   role: PI
   year: 2019
-  partner: Ponteficia Univerisdad Javeriana (Bogotá, Colombia) 
-    links:
+  partner: Pontificia Universidad Javeriana (Bogotá, Colombia)
+  links:
     - label: Webpage
       url: https://sites.google.com/site/facaraff/research/gcrf18
     - label: Project repository (Figshare)
