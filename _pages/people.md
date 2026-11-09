@@ -5,6 +5,8 @@ title: people
 description: Research group and postgraduate supervision.
 nav: true
 nav_order: 7
+toc:
+  sidebar: left
 ---
 
 {% assign cur = site.data.supervision | where: "status", "current" %}
@@ -28,7 +30,7 @@ nav_order: 7
 
 - **{{ cur_first.size }}** PhD students as first supervisor
 - **{{ cur_second.size }}** PhD students as second supervisor
-- **{{ cur_msc.size }}** MSc (by research) students
+- **{{ cur_msc.size }}** MSc students
 
 By institution:
 {% for g in cur_inst %}{{ g.name }}: **{{ g.items.size }}**{% unless forloop.last %} · {% endunless %}{% endfor %}
@@ -50,7 +52,7 @@ By institution:
 
 - **{{ done_first.size }}** PhDs as first supervisor
 - **{{ done_second.size }}** PhDs as second supervisor
-- **{{ done_msc.size }}** MSc (by research) students
+- **{{ done_msc.size }}** MSc students
 
 By institution:
 {% for g in done_inst %}{{ g.name }}: **{{ g.items.size }}**{% unless forloop.last %} · {% endunless %}{% endfor %}
