@@ -27,6 +27,16 @@ Author ORCID: [0000-0001-9199-7368](https://orcid.org/0000-0001-9199-7368) · [G
   <a href="#theses">PhD theses</a>
 </nav>
 
+<script>
+  document.querySelectorAll(".pubnav a").forEach(function (a) {
+    a.addEventListener("click", function (e) {
+      e.preventDefault();
+      var el = document.getElementById(a.getAttribute("href").slice(1));
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+</script>
+
 ## Journal articles {#journal}
 
 <div class="publications">
