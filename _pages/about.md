@@ -15,14 +15,14 @@ latest_posts:
 
 I currently serve as an Associate Professor of Artificial Intelligence at Swansea University, where my work centres on fundamental research in optimisation and machine learning alongside their applications to interdisciplinary problems.
 
-My academic background includes a Ph.D. in Mathematical Information Technology from the University of Jyväskylä, Finland (2016), preceded by a Ph.D. in Computer Science from De Montfort University, U.K. (2014). Earlier, I earned an M.Sc. in Telecommunications Engineering (2011) and a B.Sc. in Electronics Engineering (2008), both from the University of Perugia, Italy.
+My academic background includes a Ph.D. in Mathematical Information Technology from the University of Jyväskylä, Finland (2016), preceded by a Ph.D. in Computer Science from De Montfort University, U.K. (2014). Earlier, I earned an M.Sc. in Informatics & Telecommunications Engineering (2011) and a B.Sc. in Electronics Engineering (2008), both from the University of Perugia, Italy.
 
 I am the founding counsellor of the Swansea IEEE Student Branch and the _Foundation and Methods for Modelling, Data Science and AI_ theme lead within the [Zienkiewicz Institute](https://zienkiewicz.institute/).
 
 **Contact:** Room 219 (second floor), Computational Foundry, Bay Campus, Swansea University.
 
 <style>
-.social .contact-icons{font-size:2.5rem!important}
+.social .contact-icons{font-size:3rem!important}
 .social .contact-icons a,.social .contact-icons a i{font-size:inherit!important}
 .rv{margin-top:2rem}
 .rv h3{margin-bottom:.75rem}
