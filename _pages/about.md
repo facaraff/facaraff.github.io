@@ -22,7 +22,7 @@ I am the founding counsellor of the Swansea IEEE Student Branch and the _Foundat
 **Contact:** Room 219 (second floor), Computational Foundry, Bay Campus, Swansea University.
 
 <style>
-.social .contact-icons{font-size:3rem!important}
+.social .contact-icons{font-size:2.5rem!important}
 .social .contact-icons a,.social .contact-icons a i{font-size:inherit!important}
 .rv{margin-top:2rem}
 .rv h3{margin-bottom:.75rem}
