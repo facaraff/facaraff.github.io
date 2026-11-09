@@ -1,3 +1,7 @@
+# Optional per project:
+#   links:
+#     - label: Paper (DOI)
+#       url: https://doi.org/...
 - title: Cell network deterioration
   funder: Morgan Advanced Studies Institute (MASI) Summit project
   amount: £30,000
@@ -15,16 +19,36 @@
   role: CI
   year: 2018
   partner: UNIPALMA
-- title: Collaborative methodology for enhancing sustainability in rural communities and the use of land
-  funder: Global Challenges Research Fund (GCRF) competition 2018/2019 (DMU)
+- title: >-
+    Collaborative methodology for enhancing sustainability in rural
+    communities and the use of land
+  funder: >-
+    Global Challenges Research Fund (GCRF) competition 2018/2019 (DMU)
   amount: £23,500
   role: PI
   year: 2019
   partner: Pontificia Universidad Javeriana (Bogotá, Colombia)
+  summary: >-
+    The new peace process in Colombia is providing a new lease of life
+    to rural communities but raising many issues and challenges, both
+    social and operational. Lands that were in no-go zones are now
+    available for use but have many issues from direct effect from war
+    such as land mines, to indirect such as debris, pollution and
+    exhaustion. On the other hand technologisation in agriculture is
+    very limited in those regions. The PUJ has a very strong social
+    engagement and impact in all faculties and is working in both
+    social and operational aspects to support the sustainable
+    development of these communities; one of the projects involves the
+    use of multiple sensors to measure the land and help optimise its
+    use. Sensing land characteristic and detecting buried objects is
+    very complex and no one sensor or method can achieve this
+    optimally. With multiple sensors, computational intelligence based
+    data fusion, analysis and decision making techniques we can
+    optimise the performance of various systems.
   links:
     - label: Webpage
       url: https://sites.google.com/site/facaraff/research/gcrf18
     - label: Project repository (Figshare)
-      url: https://figshare.com/projects/Collaborative_methodology_for_enhancing_sustainability_in_rural_communities_and_the_use_of_land/64511
-  summary: >-
-    The new peace process in Colombia is providing a new lease of life to rural communities but raising many issues and challenges, both social and operational. Lands that were in no-go zones are now available for use but have many issues from direct effect from war such as land mines, to indirect such as debris, pollution and exhaustion. On the other hand technologisation in agriculture is very limited in those regions. The PUJ has a very strong social engagement and impact in all faculties and is working in both social and operational aspects to support the sustainable development of these communities; one of the projects involves the use of multiple sensors to measure the land and help optimise its use. Sensing land characteristic and detecting buried objects is very complex and no one sensor or method can achieve this optimally. With multiple sensors, computational intelligence based data fusion, analysis and decision making techniques we can optimise the performance of various systems. 
+      url: >-
+        https://figshare.com/projects/Collaborative_methodology_for_enhanc
+        ing_sustainability_in_rural_communities_and_the_use_of_land/64511
