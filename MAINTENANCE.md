@@ -62,3 +62,12 @@ Add an `@misc` entry to `_bibliography/papers.bib` with `section = {software}` (
 ## Supervision (People page)
 
 Everything on the People page comes from one file, `_data/supervision.yml`. Add one block per student: `level`, `role` (`first` or `second`; second also covers external supervision), `status` (`current` or `completed`), `institution`, and optionally `name`, `start` (for example January 2027), `year`, `title` and `url` (thesis or DOI link). The counts, the per-institution breakdown and the lists update by themselves. Leave out `name` for anyone who has not agreed to be named: they are still counted and listed as "PhD student". Keep completed entries newest first.
+
+## "Research at a glance" on the About page
+
+The theme tags, the publications-per-year chart and the activity tiles are drawn from data files:
+
+- `_data/publication_stats.yml` is generated from `papers.bib`. After you add or change a paper, run `python3 bin/make_stats.py` (it needs no internet) and commit the result, or ask me in the Project chat to regenerate it. Tag each new paper with `themes = {opt, health}` in `papers.bib`; the theme ids are in `_data/research_themes.yml`. The script lists any papers without a `themes` field.
+- `_data/research_themes.yml` holds the theme names and short descriptions. Edit it to rename or add themes.
+- `_data/activity.yml` holds two hand-kept numbers: journals as Associate Editor and grants secured.
+- The student, supervision and talk tiles count `_data/supervision.yml` and `_data/talks.yml` by themselves.
