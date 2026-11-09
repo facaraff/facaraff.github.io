@@ -33,7 +33,7 @@ Edit `_data/in_progress.yml`. When it has a DOI, delete it from there and add it
 
 ## Add a project
 
-Add a block to `_data/projects.yml` (title, funder, amount, role, year, summary).
+Add a block to `_data/projects.yml` (title, funder, amount, role, year, summary). To add links, add a `links:` list of `label` and `url` pairs to the project; they appear under its summary.
 
 ## Add a student, alumnus or incoming student
 
