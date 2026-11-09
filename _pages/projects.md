@@ -5,6 +5,8 @@ permalink: /projects/
 description: Funded research projects.
 nav: true
 nav_order: 3
+toc:
+  sidebar: left
 ---
 
 {% for p in site.data.projects %}
