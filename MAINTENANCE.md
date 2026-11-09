@@ -27,9 +27,9 @@ It only accepts near-exact title matches, but skim the list before committing. F
 
 Edit `_data/coauthors.yml`: add the co-author's family name (lower case), the name variants used in `papers.bib`, and their ORCID or homepage URL. Their name then becomes a link in every entry. Only add URLs you have checked.
 
-## Move a paper from "under review" to "accepted" or "published"
+## Add a newly published paper
 
-Edit `_data/in_progress.yml`. When it has a DOI, delete it from there and add it to `papers.bib`.
+Only published papers (with a DOI) are listed. Add an entry to `_bibliography/papers.bib` with `section`, `abbr`, `themes` and `doi`, then run `python3 bin/make_stats.py`.
 
 ## Add a project
 
