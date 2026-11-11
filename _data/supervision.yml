@@ -1,7 +1,7 @@
 # Postgraduate supervision. One entry per student; the People page counts and lists them automatically.
 # status: current | completed         (incoming students are "current" with a start date)
 # role: first | second                (second = any non-primary supervision, including external)
-# level: PhD | MSc by Research | MSc
+# level: PhD | MSc by Research | MSc  (MSc = taught-course dissertation)
 # Optional: name (leave out if the student has not agreed to be named: they are still counted),
 #           start (e.g. January 2027), year (award year), title, url (thesis link or DOI link).
 # Keep completed entries newest first.
