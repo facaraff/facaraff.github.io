@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /service/
-title: service & esteem
+title: Service & esteem
 description: Editorial roles, reviewing, committees and other indicators of peer esteem.
 nav: true
 nav_order: 8

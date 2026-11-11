@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /software/
-title: software & data
+title: Software & data
 description: Citable software repositories and open datasets, generated from the BibTeX master file.
 nav: true
 nav_order: 4

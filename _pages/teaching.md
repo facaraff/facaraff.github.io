@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching & admin
+title: Teaching & admin
 description: Teaching, leadership and administrative roles.
 nav: true
 nav_order: 6

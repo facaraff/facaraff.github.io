@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /people/
-title: people
+title: People
 description: Research group and postgraduate supervision.
 nav: true
 nav_order: 7

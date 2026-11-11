@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Journal articles, conference papers, chapters, editorials, theses and open data. Generated from a BibTeX master file.
 nav: true
 nav_order: 2
