@@ -17,7 +17,7 @@ I currently serve as an Associate Professor of Artificial Intelligence at Swanse
 
 My academic background includes a Ph.D. in Mathematical Information Technology from the University of Jyväskylä, Finland (2016), preceded by a Ph.D. in Computer Science from De Montfort University, U.K. (2014). Earlier, I earned an M.Sc. in Informatics & Telecommunications Engineering (2011) and a B.Sc. in Electronics Engineering (2008), both from the University of Perugia, Italy.
 
-I am the founding counsellor of the Swansea IEEE Student Branch and the _Foundation and Methods for Modelling, Data Science and AI_ theme lead within the [Zienkiewicz Institute](https://zienkiewicz.institute/).
+I am the founding counsellor of the Swansea IEEE Student Branch, will become Chair of the IEEE SIGHT group within IEEE Region 8 in January 2027, and am the _Foundation and Methods for Modelling, Data Science and AI_ theme lead within the [Zienkiewicz Institute](https://zienkiewicz.institute/).
 
 **Contact:** Room 219 (second floor), Computational Foundry, Bay Campus, Swansea University.
 

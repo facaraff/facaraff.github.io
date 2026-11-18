@@ -34,6 +34,13 @@ toc:
 - 10/2016: Postgraduate Certificate in Higher Education (PGCertHE)
 - 10/2016: Fellow of the Higher Education Academy (FHEA)
 
+## IEEE roles
+
+| Period           | Role                                                                              |
+| ---------------- | --------------------------------------------------------------------------------- |
+| From 01/01/2027  | Chair, IEEE SIGHT group within IEEE Region 8 (approved; term begins January 2027) |
+| Since 04/08/2024 | Founding member and counsellor, Swansea University IEEE Student Branch            |
+
 ## Memberships
 
 - Since 2025: EPSRC Peer Review College

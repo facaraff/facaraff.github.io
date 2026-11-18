@@ -22,6 +22,11 @@ toc:
 - _International Journal of Intelligent Systems_ (Wiley), since 2020
 - _Mathematics_ (MDPI), since 2020
 
+## IEEE leadership
+
+- Chair, IEEE SIGHT group within IEEE Region 8, from January 2027 (appointment approved)
+- Founding member and counsellor, Swansea University IEEE Student Branch, since August 2024
+
 ## Special sessions, workshops and special issues
 
 - Special Session on Leveraging Emerging AI Paradigms in Biomedical Healthcare (AIiH 2024, 2025)
@@ -37,7 +42,7 @@ toc:
 
 - Grant reviewer for EPSRC and NSERC; member of the EPSRC Peer Review College
 - Journal reviewer, selected: IEEE TEVC, IEEE Trans. Cybernetics, Information Fusion, Swarm and Evolutionary Computation, Information Sciences, Applied Soft Computing, Expert Systems with Applications, Soft Computing
-- Programme committees, selected: IEEE CEC and SSCI (2013–2026), EvoStar (2017–2026), GECCO (2019–2026), PPSN (2020–2026)
+- Programme committees, selected: IEEE CEC and SSCI (2013–2026), EvoStar (2017–2026), GECCO (2019–2026), PPSN (2020–2026), ICAART (2026)
 
 ## External examining and other international roles
 
