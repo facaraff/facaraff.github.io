@@ -13,12 +13,38 @@
     cells and moving to the features and interactions that emerge when
     they synchronise in a network. Collaborators: Prof Christopher
     George, Dr Hassan Eshkiki, Dr Nikol Sullo.
-- title: Lethal wilt in oil palm
-  funder: Newton Fund, Royal Academy of Engineering
+  links:
+    - label: Webpage
+      url: >-
+        https://www.swansea.ac.uk/masi/summit/#cell-network-deterioration-understanding-and-predicting-disease=is-expanded
+- title: >-
+    Intelligent system to improve the sustainability of oil palm crops
+    through the construction of forecasting maps
+  funder: Newton Fund, Royal Academy of Engineering (IAPP1\100130)
   amount: £50,000
   role: CI
   year: 2018
   partner: UNIPALMA
+  summary: >-
+    The oil palm is considered by the Colombian Government as one of
+    the main agricultural products. This project aims to develop an
+    intelligent system to improve the sustainability of this crop in
+    Colombia, using novel adaptive vegetation indices obtained from
+    multispectral aerial views combined with Computational
+    Intelligence methods in a forecasting map, in line with
+    international standards for small and medium-scale growers. The
+    industry partner, Unipalma of the Llanos, validates the model in a
+    real environment; the Institute of Artificial Intelligence at De
+    Montfort University advises on implementing the system as a
+    service; and EIA University carries out the field research on
+    image capture and processing, and on implementing and validating
+    the system.
+  links:
+    - label: Webpage
+      url: https://sites.google.com/site/facaraff/research/rae2018
+    - label: Project repository (Figshare)
+      url: >-
+        https://figshare.com/projects/Intelligent_system_to_improve_the_sustainability_of_oil_palm_crops_through_the_construction_of_forecasting_maps/64742
 - title: >-
     Collaborative methodology for enhancing sustainability in rural
     communities and the use of land
